@@ -1,1 +1,1 @@
-simeple graphql with fusion hot chocolate lib
+simple graphql with fusion hot chocolate lib
