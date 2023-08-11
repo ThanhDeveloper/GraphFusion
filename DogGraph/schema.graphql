@@ -1,0 +1,7 @@
+schema {
+  query: Queries
+}
+
+type Queries {
+  dogSay: String!
+}

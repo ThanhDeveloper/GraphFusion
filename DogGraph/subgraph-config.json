@@ -1,0 +1,4 @@
+{
+  "subgraph": "Dog",
+  "http": { "baseAddress": "http://localhost:5238/" }
+}
