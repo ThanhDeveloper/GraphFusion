@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogGraph", "DogGraph\DogGraph.csproj", "{15D6F715-2563-4000-9054-144B3F3D5B32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DogGraph", "DogGraph\DogGraph.csproj", "{15D6F715-2563-4000-9054-144B3F3D5B32}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gateway", "Gateway\Gateway.csproj", "{A0041EEA-FA14-4885-9C58-BAD22B08F39F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatGraph", "CatGraph\CatGraph.csproj", "{CF3AB763-88E3-4766-BC27-2F52F88D95F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A0041EEA-FA14-4885-9C58-BAD22B08F39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0041EEA-FA14-4885-9C58-BAD22B08F39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0041EEA-FA14-4885-9C58-BAD22B08F39F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF3AB763-88E3-4766-BC27-2F52F88D95F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF3AB763-88E3-4766-BC27-2F52F88D95F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF3AB763-88E3-4766-BC27-2F52F88D95F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF3AB763-88E3-4766-BC27-2F52F88D95F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

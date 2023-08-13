@@ -11,4 +11,4 @@
 - ```dotnet new install Hotchocolate.templates```
 ## Generate fsp file
 - ``` dotnet fusion subgraph pack -w .\DogGraph\```
-- ``` dotnet fusion compose -p .\Gateway\ -s .\DogGraph\```
+- ``` dotnet fusion compose -p .\Gateway\gateway -s .\DogGraph\```
