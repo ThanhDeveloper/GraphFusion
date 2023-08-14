@@ -1,7 +1,22 @@
 schema {
-  query: Queries
+  query: Query
 }
 
-type Queries {
-  catSay: String!
+"The node interface is implemented by entities that have a global unique identifier."
+interface Node {
+  id: ID!
+}
+
+type Cat implements Node {
+  id: ID!
+  name: String
+}
+
+type Query {
+  "Fetches an object given its ID."
+  node("ID of the object." id: ID!): Node
+  "Lookup nodes by a list of IDs."
+  nodes("The list of node IDs." ids: [ID!]!): [Node]!
+  userById(id: ID!): Cat
+  cats: [Cat!]!
 }
