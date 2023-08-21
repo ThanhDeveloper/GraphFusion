@@ -1,4 +1,5 @@
 using CatGraph.Data;
+using CatGraph.Types;
 using Microsoft.EntityFrameworkCore;
 using OpenTelemetry.Metrics;
 using OpenTelemetry.Resources;
@@ -34,6 +35,9 @@ builder.Services
     .AddTypes()
     .AddGlobalObjectIdentification()
     .RegisterDbContext<CatContext>()
+    .AddMutationType<Mutation>()
+    .AddType<UploadType>()
+    .AddMutationConventions()
     .AddInstrumentation(o => o.RenameRootActivity = true);
 
 var app = builder.Build();
